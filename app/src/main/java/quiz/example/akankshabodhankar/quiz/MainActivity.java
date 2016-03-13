@@ -14,6 +14,7 @@ import android.widget.Toast;
 
 public class MainActivity extends ActionBarActivity {
 
+    public static int Current_Question_Number = 1;
     Button b,b1,b2,b3;
     static SQLiteDatabase db= null;
     public static int score;
@@ -42,7 +43,9 @@ public class MainActivity extends ActionBarActivity {
         b1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Toast.makeText(getApplicationContext(), "DEVELOPING", Toast.LENGTH_LONG).show();
+                Intent i = new Intent(getApplicationContext(),addquestion.class);
+                startActivity(i);
+
 
             }
         });

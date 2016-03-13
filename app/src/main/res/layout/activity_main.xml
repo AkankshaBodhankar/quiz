@@ -24,7 +24,7 @@
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="SETTINGS"
+        android:text="@string/add_question"
         android:id="@+id/button2"
         android:layout_alignParentStart="true"
         android:layout_above="@+id/button3"
@@ -71,7 +71,7 @@
         android:layout_width="400dp"
         android:gravity="center"
         android:layout_height="60dp"
-        android:text="WELCOME TO QUIZZICAL"
+        android:text="QUIZ FOR PC"
         android:id="@+id/textView"
         android:textStyle="bold"
         android:textSize="20dp"

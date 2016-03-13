@@ -5,7 +5,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="1.What is the DOD of Dr.APJ Abdul Kalam?"
+        android:text="@string/third_question"
         android:id="@+id/q1"
         android:textSize="23dp"
         android:textStyle="bold"
@@ -32,14 +32,14 @@
             android:id="@+id/r1"
             android:layout_gravity="center_horizontal"
             android:checked="false"
-            android:text="25th July"
+            android:text="US Corporate"
             android:textColor="#ff0000" />
 
         <RadioButton
             android:layout_width="160dp"
             android:buttonTint="#ff0000"
             android:layout_height="wrap_content"
-            android:text="28th July"
+            android:text="WHO"
             android:id="@+id/r2"
             android:layout_gravity="center_horizontal"
             android:checked="false"
@@ -49,7 +49,7 @@
             android:layout_width="160dp"
             android:layout_height="wrap_content"
             android:buttonTint="#ff0000"
-            android:text="26th July"
+            android:text="UNO"
             android:id="@+id/r3"
             android:layout_gravity="center_horizontal"
             android:checked="false"
@@ -59,7 +59,7 @@
             android:layout_width="160dp"
             android:layout_height="wrap_content"
             android:buttonTint="#ff0000"
-            android:text="27th July"
+            android:text="US Government"
             android:id="@+id/r4"
             android:layout_gravity="center_horizontal"
             android:checked="false"

@@ -3,4 +3,8 @@
 
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
+    <string name="first_question">1.When was peace corps found?</string>
+    <string name="second_question">2.Which president issued PC?</string>
+    <string name="third_question">3.Who is the parent agency of PeaceCorps?</string>
+    <string name="add_question">Add Questions</string>
 </resources>

@@ -6,7 +6,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="1.Who is the first president of India?"
+        android:text="@string/first_question"
         android:id="@+id/q1"
         android:textSize="23dp"
         android:textStyle="bold"
@@ -33,14 +33,14 @@
             android:id="@+id/r1"
             android:layout_gravity="center_horizontal"
             android:checked="false"
-            android:text="APJ Abdul Kalam"
+            android:text="1960"
             android:textColor="#ff0000" />
 
         <RadioButton
             android:layout_width="160dp"
             android:buttonTint="#ff0000"
             android:layout_height="wrap_content"
-            android:text="Pratibha Patil"
+            android:text="1945"
             android:id="@+id/r2"
             android:layout_gravity="center_horizontal"
             android:checked="false"
@@ -50,7 +50,7 @@
             android:layout_width="160dp"
             android:layout_height="wrap_content"
             android:buttonTint="#ff0000"
-            android:text="Rajendra Prasad"
+            android:text="1961"
             android:id="@+id/r3"
             android:layout_gravity="center_horizontal"
             android:checked="false"
@@ -60,7 +60,7 @@
             android:layout_width="160dp"
             android:layout_height="wrap_content"
             android:buttonTint="#ff0000"
-            android:text="Pranab Mukheerji"
+            android:text="1970"
             android:id="@+id/r4"
             android:layout_gravity="center_horizontal"
             android:checked="false"
