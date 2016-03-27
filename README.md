@@ -1,2 +1,3 @@
 # quiz
-This is a basic quiz app which uses SQlite database
+This is a basic quiz creator app 
+
